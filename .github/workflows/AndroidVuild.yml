@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Java JDK 1.8
+      - name: Setup Java JDK
         uses: actions/setup-java@v2
         with:
           java-version: '21.0.2+13.0.LTS'
